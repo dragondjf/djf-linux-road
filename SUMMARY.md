@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [操作系统简介](操作系统/操作系统简介.md)
-   * [什么是操作系统](操作系统/什么是操作系统.md)
+* [操作系统简介](操作系统/什么是操作系统.md)
+   * [操作系统简介](操作系统/操作系统简介.md)
 * [Linux历史](Linux历史/Linux历史.md)
 * [Linux Shell简介](Linux Shell简介/Linux Shell简介.md)
 * [Linux文件和文件系统结构](Linux文件和文件系统结构/Linux文件和文件系统结构.md)
@@ -14,5 +14,5 @@
 * [Linux常用软件开发工具](Linux常用软件开发工具/Linux常用软件开发工具.md)
 * [Linux周边](Linux周边/Linux周边.md)
     * [Linux开机启动](Linux周边/Linux开机启动.md)
-    * [Linux为什么不需要磁盘管理](Linux周边/Linux为什么不需要磁盘管理.md)
+    * [Linux为什么不需要磁盘管理](Linux周边/Why Linux不需要磁盘碎片整理.md)
     * [Linux内存管理机制简介](Linux周边/Linux内存管理机制简介.md)
