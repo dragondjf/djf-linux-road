@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [操作系统简介](操作系统/什么是操作系统.md)
-   * [操作系统简介](操作系统/操作系统简介.md)
+    * [操作系统简介](操作系统/操作系统简介.md)
 * [Linux历史](Linux历史/Linux历史.md)
 * [Linux Shell简介](Linux Shell简介/Linux Shell简介.md)
 * [Linux文件和文件系统结构](Linux文件和文件系统结构/Linux文件和文件系统结构.md)
