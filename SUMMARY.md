@@ -12,3 +12,7 @@
 * [Linux文件系统备份](Linux文件系统备份/Linux文件系统备份.md)
 * [Linux图形用户界面](Linux图形用户界面/Linux图形用户界面.md)
 * [Linux常用软件开发工具](Linux常用软件开发工具/Linux常用软件开发工具.md)
+* [Linux周边](Linux周边/Linux开机启动.md)
+* [Linux周边](Linux周边/Linux为什么不需要磁盘管理.md)
+* [Linux周边](Linux周边/Linux内存管理机制简介.md)
+
