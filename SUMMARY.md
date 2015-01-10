@@ -10,6 +10,7 @@
     * [Linux文件系统结构](Linux文件和文件系统结构/Linux文件系统结构.md)
 * [Linux文件处理](Linux文件处理/Linux文件处理.md)
 * [Linux文件安全](Linux文件安全/Linux文件安全.md)
+    * [Linux文件权限](Linux文件安全/Linux文件权限.md) 
 * [Linux文件共享](Linux文件共享/Linux文件共享.md)
 * [Linux文件系统备份](Linux文件系统备份/Linux文件系统备份.md)
 * [Linux图形用户界面](Linux图形用户界面/Linux图形用户界面.md)
