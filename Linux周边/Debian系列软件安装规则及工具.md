@@ -50,9 +50,9 @@ Debian系列软件安装规则及工具
 + 以**`垂直`**的观点来看 Debian 软件的分布：`main`、`contrib`、`non-free`、`non-us` 而其中出现的 `main contrib non-free` 之类的，理解为一种垂直的划分吧。  因为 Debian 是非营利组织，但是组织架构严谨，有一套完善的软件管理方式。基于其对软件 free 度的一种坚持，对不同版权软件包的录入有一些限定。 下面是对它们的一些简要介绍：  
 
 
-    | 版本| 简介 |
+    | 版本               |           简介       |
     | :-------------------|------------------------:| 
-    | **main** |    Debian 里最基本及主要且符合自由软件规范的软件 ( packages )。|  contrib     这里头软件虽然可以在 Debian 里头运作，即使本身属于自由软件但多半却是相依于非自由 ( non-free ) 软件。 
+    | **main** |    Debian 里最基本及主要且符合自由软件规范的软件 ( packages )。|  contrib     这里头软件虽然可以在 Debian ( non-free ) 软件。 
     | **non-free**   |不属于自由软件范畴的软件。 | 
     | **non-us**    | 这个分类里头的软件都来自非美国地区，当中可能有牵扯到专利、加密..等等问题。|
     |**marillat** |   对应 Christian Marillat 的软件仓库，包括mplayer, transcode等。  |
