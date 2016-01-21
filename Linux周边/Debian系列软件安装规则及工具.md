@@ -48,7 +48,8 @@ Debian系列软件安装规则及工具
 
 
 + 以**`垂直`**的观点来看 Debian 软件的分布：`main`、`contrib`、`non-free`、`non-us` 而其中出现的 `main contrib non-free` 之类的，理解为一种垂直的划分吧。  因为 Debian 是非营利组织，但是组织架构严谨，有一套完善的软件管理方式。基于其对软件 free 度的一种坚持，对不同版权软件包的录入有一些限定。 下面是对它们的一些简要介绍：  
-    
+
+
     | 版本| 简介 |
     | :-------------------|------------------------:| 
     | **main** |    Debian 里最基本及主要且符合自由软件规范的软件 ( packages )。|  contrib     这里头软件虽然可以在 Debian 里头运作，即使本身属于自由软件但多半却是相依于非自由 ( non-free ) 软件。 
@@ -60,6 +61,7 @@ Debian系列软件安装规则及工具
     |  **java**  |     对应 Blackdown java。包括 j2re, j2sdk ,mozilla java plugin。| 
     |   **firefly** |     对应打过firefly补丁的包，包括 fontconfig mozilla mozilla-firefox pango1.0 qt-x11-free xft |
     |  **misc**  |    对应其它无分类的包，包括 nvidia-kernel, winex3, rox, chmsee等  debian-bit Lonecat 大大自己编译的一些软件包都在这里。|
+
 
 #####3.选择最佳镜像发布站点加入source.list文件：netselect，netselect-apt
     sudo apt-get install netselect
