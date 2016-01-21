@@ -15,7 +15,8 @@ Debian系列软件安装规则及工具
             deb http://debian.cn99.com/debian/ stable main contrib non-free 
             deb-src http://debian.cn99.com/debian/ stable main contrib non-free  
             deb http://debian.cn99.com/debian-non-US stable/non-US main contrib non-free 
-            deb-src http://debian.cn99.com/debian-non-US stable/non-US main contrib non-free   
+            deb-src http://debian.cn99.com/debian-non-US stable/non-US main contrib non-free
+
     +   **`lenny 源`**  虽名为测试版，实则已经相当接近于 stable 版本的程度，这个版本的软件多半是在 unstable 中经由维护、开发人员不断的测试之后流入，所以在某种程度来说，其实已经做过初步的检测，这里头的软件大多也是相当稳定的，而且软件也都会比 stable 里头的新，而且软件总量来说则比上 stable 要多很多。 大多数人一般都使用的都是 lenny 的源。
 
             deb http://debian.cn99.com/debian/ lenny main contrib non-free
@@ -23,17 +24,16 @@ Debian系列软件安装规则及工具
             deb http://debian.cn99.com/debian-non-US lenny/non-US main contrib non-free
             deb-src http://debian.cn99.com/debian-non-US lenny/non-US main contrib non-free   
 
-
     +   **`unstable 源`**  个人看法这才算是 测试版 ，这里头最大的特色就是软件更新速度快，几乎都与该软件同步，因为太新相对的使用 unstable 的人也必须承担更高的风险，有时候您可能会遭遇到一早更新完所有软件后，发现有些软件不能正常运作的状况，不过庆幸的是这种情形大概只会持续一两天左右， 因为 unstable 的特色就是更新速度快，一旦有人回报问题，维护的人很快就会作修正。 如果喜欢玩软件，也不在乎有时候系统有出现一些小毛病，那就用它吧! 
 
             deb http://debian.cn99.com/debian/ unstable main contrib non-free 
             deb-src http://debian.cn99.com/debian/ unstable main contrib non-free  
             deb http://debian.cn99.com/debian-non-US unstable /non-US main contrib non-free 
             deb-src http://debian.cn99.com/debian-non-US unstable /non-US main contrib non-free   
-    
+
     +  **`experimental源`**  按照官方的说法，里面的软件大多都是很不稳定和充满bug的，并可能导致数据的丢失…. 如果想用到最新的软件并充满小白鼠的献身精神或者是立志成为Bug Reporter..那就用它吧… 
     
-            deb http://debian.cn99.com/debian/ experimental main contrib non-free    
+            deb http://debian.cn99.com/debian/ experimental main contrib non-free
 
    + **` backports源`**  为 Debian 提供不需要非 Stable 链接库就可在 Stable 版运行的新软件包，有效地弥补了Debian Stable版软件较旧的缺点。属于稳定性和功能之间的一个新的平衡点吧。  而且，这是 Lonecat 大大目前使用的源，还想什么，就选它吧。  
 
@@ -45,6 +45,7 @@ Debian系列软件安装规则及工具
             
             deb http://debian.cn99.com/debian-uo sid marillat rareware misc ustc java firefly jrfonseca xorg 
             deb-src http://debian.cn99.com/debian-uo sid marillat rareware misc ustc java firefly jrfonseca xorg 
+
 
 + 以**`垂直`**的观点来看 Debian 软件的分布：`main`、`contrib`、`non-free`、`non-us` 而其中出现的 `main contrib non-free` 之类的，理解为一种垂直的划分吧。  因为 Debian 是非营利组织，但是组织架构严谨，有一套完善的软件管理方式。基于其对软件 free 度的一种坚持，对不同版权软件包的录入有一些限定。 下面是对它们的一些简要介绍：  
     
