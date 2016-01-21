@@ -135,7 +135,7 @@ Debian系列软件安装规则及工具
 |`/var/lib/apt/lists/` |  `sudo apt-get update`后所有软件更新记录存放目录|
 |`/var/cache/apt/archives`|`sudo apt-get upgrade`后所有软件包下载缓存的目录|
 
-###参考文章
+#####参考文章
 + http://wenku.baidu.com/link?url=WJ8TymOgvQjEFM_jdBKKB4ma7q-E6yTxF4NASxpt0QEPdqU-LoKue1KFSeOUHBt9Qm42OZLio6VblIm-6ppweVImaxDXWXDS0a-O8fB302y
 + http://jingyan.baidu.com/article/851fbc37c22b233e1f15ab12.html
 + https://www.debian.org/doc/manuals/apt-howto/index.zh-cn.html#contents
