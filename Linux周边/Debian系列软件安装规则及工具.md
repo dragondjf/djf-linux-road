@@ -81,7 +81,7 @@ Debian系列软件安装规则及工具
 | 解压安装软件包       |    **`sudo apt-get install foo`** |
 | 重新安装软件包       |    **`sudo apt-get --reinstall install foo`** |
 | 删除软件包释放的内容       |    **`sudo apt-get remove foo`** |
-| 卸载软件，同时清除该软件配置文件| **`sudo apt-get apt-get --purge remove foo`** |
+| 卸载软件，同时清除该软件配置文件| **`sudo apt-get --purge remove foo`** |
 | 删除不需要的包       |    **`sudo apt-get autoclean`** |
 | 删除所有已下载的包       |    **`sudo apt-get clean`** |
 | 自动安装编译一软件所需要的包       |    **`sudo apt-get build-dep foo`** |
