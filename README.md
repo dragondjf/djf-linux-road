@@ -1,4 +1,26 @@
-djf-linux-road
+Linux
 ==============
-
-learn linux simple
+* [Introduction](README.md)
+* [什么是操作系统](操作系统/什么是操作系统.md)
+    * [操作系统简介](操作系统/操作系统简介.md)
+* [Linux历史](Linux历史/Linux历史.md)
+* [Linux Shell简介](Linux Shell简介/Linux Shell简介.md)
+* [Linux文件和文件系统结构](Linux文件和文件系统结构/Linux文件和文件系统结构.md)
+    * [Linux文件类型](Linux文件和文件系统结构/Linux文件类型.md)
+    * [Linux文件系统结构](Linux文件和文件系统结构/Linux文件系统结构.md)
+* [Linux文件处理](Linux文件处理/Linux文件处理.md)
+    * [GVFS简介](Linux文件处理/GVFS简介.md)
+* [Linux文件安全](Linux文件安全/Linux文件安全.md)
+    * [Linux文件权限](Linux文件安全/Linux文件权限.md) 
+* [Linux文件共享](Linux文件共享/Linux文件共享.md)
+* [Linux文件系统备份](Linux文件系统备份/Linux文件系统备份.md)
+* [Linux图形用户界面](Linux图形用户界面/Linux图形用户界面.md)
+* [Linux常用软件开发工具](Linux常用软件开发工具/Linux常用软件开发工具.md)
+* [Linux常用命令](Linux常用命令/Linux常用命令.md)
+    * [ls 命令详解](Linux常用命令/ls命令详解.md)
+    * [file 命令详解](Linux常用命令/file命令详解.md) 
+* [Linux周边](Linux周边/Linux周边.md)
+    * [Linux开机启动](Linux周边/Linux 开机启动.md)
+    * [Linux为什么不需要磁盘管理](Linux周边/Why Linux不需要磁盘碎片整理.md)
+    * [Linux内存管理机制简介](Linux周边/Linux内存管理机制简介.md)
+    * [Debian系列软件安装规则及工具](Linux周边/Debian系列软件安装规则及工具.md)
