@@ -60,8 +60,9 @@ GVFS 也提供了在 `/run/user/1000/gvfs`提供了一个 FUSE 挂在点，这�
 ####4. 各个协议支持的文件操作(GVfs 1.24.0)
 
 + 读操作
+
 | **Backend**   |  **open_for_read/read/close_read**| **read**　| **seek_on_read**|**pull**|
-| :------ | :------:| :------: |:------:|:------:|:------:|
+| :------ | :------:| :------: |:------:|:------:|
 |afc |√**do** |√**do** |√**do** | |
 |afp |√**try** |√**try**|√**try**||
 |archive |√**do** |√**do**|||
@@ -74,6 +75,7 @@ GVFS 也提供了在 `/run/user/1000/gvfs`提供了一个 FUSE 挂在点，这�
 |nfs |√**try** |√**try**|√**try**||
 |sftp |√**try** |√**try**|√**try**||
 |smb |√**do** |√**do**|√**do**||
+
 + 写操作
 
 | **Backend**   |  **create/replace/write/close_write**| **append_to**　| **seek_on_write/truncate** | **delete** | **copy** | **move** | **push** |
